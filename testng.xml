@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Simon's Descktop/IdeaProjects/LearningTestNG">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Simon's Descktop/IdeaProjects/LearningTestNG/src/com/company/GroupingTest.java">
         <classes>
-            <class name="com.company.FirstTestCase">
+            <class name="com.company.GroupingTest">
                 <methods>
-                    <include name="setup"/>
-                    <include name="login"/>
-                    <include name="teardown"/>
-                </methods>
-            </class>
-            <class name="com.company.SecondTestCase">
-                <methods>
-                    <include name="setup"/>
-                    <include name="addCustomer"/>
-                    <include name="searchCustomer"/>
-                    <include name="teardown"/>
+                    <include name="test4"/>
                 </methods>
             </class>
         </classes>
