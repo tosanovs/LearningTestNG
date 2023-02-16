@@ -5,19 +5,19 @@ import org.testng.annotations.Test;
 public class FirstTestCase {
 
     // setup
-    @Test
+    @Test(priority = 1)
     void setup(){
         System.out.println("Opening browser...");
     }
 
     //test-logging
-    @Test
+    @Test(priority = 2)
     void login(){
         System.out.println("This is logging test...");
     }
 
     //teardown
-    @Test
+    @Test(priority = 3)
     void teardown(){
         System.out.println("Closing browser...");
     }
